@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+/* .Container {
+    background-color: #fff;
+    width: 90%;
+    height: auto;
+    padding: 0 15px;
+    max-width: 100%;
+    margin: auto;
+    margin-top:80px ;
+    border-radius: 10px 90px 10px 170px;
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+  } */
+/* Navbar start */
+.header-area.header-sticky {
+    min-height: 80px;
+}
+.header-area {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 100;
+    height: 90px;
+    background-color: white;
+}
+.background-header {
+    background-color: #fff;
+    height: 80px !important;
+    position: fixed !important;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15) !important;
+}
+.background-header .logo {
+    color: #b71516 !important;
+}
+
+.background-header .main-nav .nav > li:hover > a {
+  color: #b71516 !important;
+}
+
+.background-header .main-nav .nav > li > ul > li:hover > a {
+  color: #b71516 !important;
+}
+
+.background-header .nav li a.active {
+    color:  #051537 !important;
+  }
+.logo{
+    line-height: 60px;
+    font-family: Averia Serif Libre;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color:#b71516;
+}
+.logo:hover{
+    color:#b71516;
+}
+nav ul li{
+    padding-left:  10px;
+    padding-right: 10px;
+}
+.nav-item a{
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+}
+.nav-item a:hover{
+    color:#060644 ;
+}
+nav ul li{
+    padding-left:  10px;
+    padding-right: 10px;
+}
+.nav-item a{
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+}
+.nav-item a:hover{
+    color:#f55858 ;
+}
+.left h1{
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 80px;
+    letter-spacing: 1.4px;
+    margin-bottom: 30px;
+    /* color: #fff; */
+}
+
+.left-button{
+    
+    border-radius: 20px;
+    padding: 6px 20px;
+    background-color: #f55858;
+    text-transform: uppercase;
+    
+}
+a{
+    font-size: 13px;
+    /* color: #fff; */
+    letter-spacing: 0.50px;
+}
+.nav-link{
+    margin-bottom: 0%;
+}
+
+/* Navbar end */
+
+
+/* Taxila start */
+
+.taxila{
+    margin-top: 100px;
+}
+.title{
+    padding-top: 20px;
+    color: #060644;
+    font-family: 'Libre Baskerville',;
+    font-size: 64px;
+}
+.taxila video{
+    border-radius: 30px;
+}
+
+/*  Taxila intro start */
+.info{
+    padding-top: 50px;
+    width: 80%;
+    margin: auto;
+    text-align: start;
+}
+
+.taxila .btn{
+    background-color: #060644;
+    color: #ddd;
+}
+.video{
+    width: 60%;
+     margin: auto;
+  }
+
+@media (max-width: 768px){
+    .info{
+        padding-top: 50px;
+        width: 100%;
+        margin: auto;
+        text-align: justify;
+    }
+    
+    .taxila .btn{
+        background-color: #060644;
+        color: #ddd;
+    }
+    .info p{
+        text-align: justify;
+    }
+    .video{
+      width: 100%;
+       margin: auto;
+    }
+    
+}
+.info .btn:hover{
+    background-color: #007bff;
+}
+
+/*  Taxila intro end */
+
+/* Taxila Key Features start*/
+.left-text{
+    padding: 80px;
+    padding-top: 30px;
+    padding-bottom: 0;
+}
+
+.left-text ul li img {
+    display: inline;
+    float: left;
+    margin-top: 20px;
+}
+.left-text ul li p{
+    padding-right: 20px;
+}
+.left-text ul li .text h6 {
+    padding-top: 9px;
+    font-size: 21px;
+    font-weight: 500;
+    color: #1e1e1e;
+    margin-bottom: 5px;
+}
+.left-text ul li .text {
+    margin-left: 80px;
+}
+.left-text .right-image {
+    align-self: center;
+}
+
+.right .col-lg-6{
+    margin-left: 200px;
+}
+@media (max-width: 768px){
+    .left-text {
+    padding-right: 0;
+    padding-left: 15px;
+    }
+    .left-text ul li p{
+        text-align: justify;
+    }
+
+    
+}
+/* Taxila Key Features end */
+
+/* Taxila Benefits start */
+.Benefits{
+    width: 80%;
+    margin: auto;
+}
+.para p{
+    margin-bottom: 20px;
+}
+.para img{
+    margin-right: 10px;
+    margin-top: 2px;
+}
+@media (max-width: 768px){
+    .Benefits{
+        width: 95%;
+     
+     }
+     .para p {
+        margin-bottom: 20px;
+        margin-left: 30px;
+    }
+    
+    }
+/*Taxila Benefits end */
+
+/* Taxila Preview start */
+.scroll h3 {
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+    color: #007bff;
+}
+
+.gall {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0;
+}
+
+.pic {
+    display: flex;
+    gap: 0px;
+    overflow: hidden;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+.arrow {
+    background: transparent;
+    position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    cursor: pointer;
+    background: linear-gradient(to bottom, #006ead, #060644);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.pic img {
+    width: 100%;
+    height: auto;
+    min-width: 100%;
+}
+
+.left-arrow {
+    left: -35px; /* Adjust position to make it visible */
+}
+
+.right-arrow {
+    right: -35px; /* Adjust position to make it visible */
+}
+
+@media (max-width: 768px){
+    .scroll h3 {
+        font-size: 35px;
+        font-weight: 400;
+        text-align: center;
+        color: #007bff;
+    }
+    
+    .gall {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        position: relative;
+        padding: 0;
+    }
+    
+    .pic {
+        display: flex;
+        gap: 0px;
+        overflow: hidden;
+        width: 100%;
+        scroll-behavior: smooth;
+    }
+    
+    .arrow {
+        background: transparent;
+        position:absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 24px;
+        cursor: pointer;
+        /* background: linear-gradient(to bottom, #006ead, #060644); */
+        color: gray;
+        border: none;
+        padding: 0px;
+        border-radius: 50%;
+        z-index: 10;
+    }
+    
+    .pic img {
+        width: 100%;
+        height: auto;
+        min-width: 100%;
+    }
+    
+    .left-arrow {
+        left: 0px; /* Adjust position to make it visible */
+    }
+    
+    .right-arrow {
+        right: 0px; /* Adjust position to make it visible */
+    }
+    
+    
+    }
+/* Taxila Preview End */
+
+/* Taxila end */
+
+/* Contact start */
+.cta .btn{
+    background-color: #060644;
+    color: #ddd;
+}
+
+.cta .btn:hover{
+    background-color: #007bff;
+}
+/* Contact end*/
+
+/* Footer start */
+footer .social li a{
+    background: linear-gradient(to bottom,  #006ead, #060644);
+}
+
+.copyright {
+    font-size: 14px;
+    color: #777; /* Light grey color for text */
+} 
+
+/* Footer end */

@@ -1,0 +1,691 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+/* .Container {
+    background-color: #fff;
+    width: 90%;
+    height: auto;
+    padding: 0 15px;
+    max-width: 100%;
+    margin: auto;
+    margin-top:80px ;
+    border-radius: 10px 90px 10px 170px;
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+  } */
+/* Navbar start */
+.header-area.header-sticky {
+    min-height: 80px;
+}
+.header-area {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 100;
+    height: 90px;
+    background-color: white;
+}
+.background-header {
+    background-color: #fff;
+    height: 80px !important;
+    position: fixed !important;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15) !important;
+}
+.background-header .logo {
+    color: #b71516   !important;
+}
+
+.background-header .main-nav .nav > li:hover > a {
+  color: #b71516  !important;
+}
+
+.background-header .main-nav .nav > li > ul > li:hover > a {
+  color: #b71516 !important;
+}
+.background-header .nav li a.active {
+    color:  #051537 !important;
+  }
+.background-header .nav li a.active {
+  /* color: #f55858 !important; */
+}
+.logo{
+    line-height: 60px;
+    font-family: Averia Serif Libre;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #b71516;
+}
+.logo:hover{
+     color:  #b71516;
+}
+nav ul li{
+    padding-left:  10px;
+    padding-right: 10px;
+}
+.nav-item a{
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+}
+.nav-item a:hover{
+    color:#051537  ;
+}
+.left h1{
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 80px;
+    letter-spacing: 1.4px;
+    margin-bottom: 30px;
+    /* color: #fff; */
+}
+
+.left-button{
+    
+    border-radius: 20px;
+    padding: 6px 20px;
+    background-color: #f55858;
+    text-transform: uppercase;
+}
+a{
+    font-size: 13px;
+    /* color: #fff; */
+    letter-spacing: 0.50px;
+}
+.nav-link{
+    margin-bottom: 0%;
+}
+
+/* Navbar end */
+
+/* About us start  */
+#about2 {
+    padding: 80px 0px;
+  }
+
+/*   About us intro start */
+/* Variables */
+:root {
+    --primary-color: #0066cc;
+    --secondary-color: #001f4d;
+    --accent-color: #00a3ff;
+    --text-light: #ffffff;
+    --text-dark: #1a1a1a;
+    --gradient-primary: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    --transition-smooth: all 0.3s ease-in-out;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+    color: var(--text-dark);
+}
+
+/* Hero Section */
+.hero-section {
+    background: var(--gradient-primary);
+    padding: 6rem 0;
+    color: var(--text-light);
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+}
+
+.hero-subtitle {
+    font-size: 1.25rem;
+    opacity: 0.9;
+    margin-bottom: 2rem;
+}
+
+.hero-badges {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.hero-badges .badge {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.hero-badges .badge i {
+    font-size: 1.25rem;
+}
+.hero-badges .badge:hover{
+    transform: translateY(-5px);
+    behavior: var(--transition-smooth);
+}
+.hero-image-wrapper {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    transform: perspective(1000px) rotateY(-5deg);
+    transition: var(--transition-smooth);
+}
+
+.hero-image-wrapper:hover {
+    transform: perspective(1000px) rotateY(0deg);
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: var(--transition-smooth);
+}
+/*  About us intro end */
+
+/* About us featuer Start */
+.features-section {
+    padding: 6rem 0;
+    background-color: #f8f9fa;
+}
+
+.section-header h2 {
+    color: var(--secondary-color);
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.section-divider {
+    width: 80px;
+    height: 4px;
+    background: var(--gradient-primary);
+    margin: 0 auto;
+    border-radius: 2px;
+}
+
+/* Feature Cards */
+.feature-card {
+    background: var(--gradient-primary);
+    color: var(--text-light);
+    border-radius: 20px;
+    padding: 3rem;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.feature-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+    pointer-events: none;
+}
+
+.feature-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    backdrop-filter: blur(5px);
+}
+
+.feature-card h3 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.feature-card p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    opacity: 0.9;
+    margin-bottom: 2rem;
+}
+
+.feature-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--text-light);
+    text-decoration: none;
+    font-weight: 500;
+    transition: var(--transition-smooth);
+}
+
+.feature-link:hover {
+    color: var(--accent-color);
+    gap: 0.75rem;
+}
+
+/* Carousel Controls */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+    opacity: 0.7;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    background-size: 24px;
+}
+
+.carousel-indicators {
+    bottom: -3rem;
+}
+
+.carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 6px;
+    background-color: var(--primary-color);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1200px) {
+    .hero-title {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .hero-section {
+        padding: 4rem 0;
+    }
+    
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .hero-image-wrapper {
+        margin-top: 3rem;
+        transform: none;
+    }
+    
+    .feature-card {
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2rem;
+    }
+    
+    .hero-badges {
+        justify-content: center;
+    }
+    
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none;
+    }
+    
+    .feature-card {
+        margin: 0 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-section {
+        padding: 3rem 0;
+    }
+    
+    .hero-title {
+        font-size: 1.75rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+    
+    .hero-badges .badge {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .feature-card {
+        padding: 1.5rem;
+    }
+}
+
+/*  About us featuer end */
+
+/* About us Vision and Mission start */
+.testimonial-heading .th{
+    color: white;
+}
+.corporate-stories .card{
+    background: linear-gradient(to bottom, #006ead, #060644);
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.25px;
+    color: white;
+}
+.corporate-stories h2{
+    font-weight: bold;
+    color:#17176d;
+    font-family: "Roboto", sans-serif;
+}
+.corporate-stories .btn{
+    background-color: #060644;
+    border: none;
+}
+.card blockquote{
+    text-align: center;
+}
+/* About us Vision and Mission end*/
+
+
+/*  About us Milestones start */
+
+/* Importing League Spartan font */
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap');
+.matrix .ht h2{
+color: #17176d;
+font-family: 'Roboto', sans-serif;
+ font-size: 40px;
+ font-weight: bold;
+}
+
+.metric-icon svg{
+    color:#ffb85d;
+}
+
+.matrix .card:hover{
+    transition: transform .3s ease;
+    transform: translateY(-5px);
+}
+/*  About us Milestones end */
+
+/* About us Aspart cards start */
+
+.card{
+    box-shadow: 0 4px 8px #0000001a;
+}
+.metric-card h3,p {
+    color:  #17176d;
+}
+
+.card-section {
+    background-color: #f8f9fa;
+    padding: 6rem 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.section-header {
+    margin-bottom: 4rem;
+}
+
+.section-title {
+    color: #17176d;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    position: relative;
+    display: inline-block;
+}
+
+.section-title-underline {
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(to right, #006ead, #060644);
+    margin: 0 auto;
+    border-radius: 2px;
+}
+
+.custom-card {
+    background: linear-gradient(135deg, #006ead, #060644);
+    color: white;
+    border-radius: 16px;
+    padding: 2.5rem;
+    height: 100%;
+    min-height: 380px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+}
+
+.custom-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+    pointer-events: none;
+}
+
+.custom-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+.card-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.1);
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    backdrop-filter: blur(5px);
+}
+
+.custom-card h5 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: rgba(255, 255, 255, 0.95);
+}
+
+.custom-card p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.85);
+    margin-bottom: 2rem;
+    flex-grow: 1;
+}
+
+.card-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.15);
+    color: white;
+    text-decoration: none;
+    padding: 0.875rem 1.75rem;
+    border-radius: 50px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(5px);
+}
+
+.card-link:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+    color: white;
+    transform: translateX(5px);
+}
+
+.card-link i {
+    transition: transform 0.3s ease;
+}
+
+.card-link:hover i {
+    transform: translateX(3px);
+}
+
+/* Carousel Controls */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    opacity: 1;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    background-size: 24px;
+    backdrop-filter: blur(5px);
+}
+
+/* Carousel Indicators */
+.carousel-indicators {
+    bottom: -3rem;
+}
+
+.carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 6px;
+    background-color: #006ead;
+    opacity: 0.5;
+    transition: all 0.3s ease;
+}
+
+.carousel-indicators button.active {
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+/* Smooth Transitions */
+.carousel-item {
+    transition: transform 0.6s ease-in-out;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 991px) {
+    .card-section {
+        padding: 4rem 0;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .custom-card {
+        min-height: 340px;
+        padding: 2rem;
+    }
+
+    .custom-card h5 {
+        font-size: 1.5rem;
+    }
+
+    .custom-card p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none;
+    }
+
+    .custom-card {
+        margin: 0 0.5rem;
+        min-height: 300px;
+    }
+
+    .card-icon {
+        width: 60px;
+        height: 60px;
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .section-title {
+        font-size: 1.75rem;
+    }
+
+    .custom-card {
+        padding: 1.5rem;
+    }
+}
+
+/* About us Aspart cards end */
+
+/* About Us end */
+
+/* Contact Form start */
+.cta .btn{
+    background-color: #060644;
+    color: #ddd;
+}
+.cta .btn:hover{
+    background-color:#00a3ff;
+    color: #ddd;
+}
+/* Contact Form end  */
+
+/* Footer start */
+
+footer .social li a{
+    background: linear-gradient(to bottom,  #006ead, #060644);
+}
+.copyright {
+    font-size: 14px;
+    color: #777; /* Light grey color for text */
+} 
+
+/* Footer end */

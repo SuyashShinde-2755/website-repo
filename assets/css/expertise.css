@@ -1,0 +1,362 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/* .Container {
+  background-color: #fff;
+  width: 90%;
+  height: auto;
+  padding: 0 15px;
+  max-width: 100%;
+  margin: auto;
+  margin-top:80px ;
+  border-radius: 10px 90px 10px 170px;
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+} */
+/* Navbar start */
+.header-area.header-sticky {
+  min-height: 80px;
+}
+.header-area {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 100;
+  height: 90px;
+  background-color: white;
+}
+.background-header {
+  background-color: #fff;
+  height: 80px !important;
+  position: fixed !important;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15) !important;
+}
+.background-header .logo {
+  color: #b71516   !important;
+}
+
+.background-header .main-nav .nav > li:hover > a {
+color: #b71516  !important;
+}
+
+.background-header .main-nav .nav > li > ul > li:hover > a {
+color: #b71516 !important;
+}
+.background-header .nav li a.active {
+  color:  #051537 !important;
+}
+.background-header .nav li a.active {
+/* color: #f55858 !important; */
+}
+.logo{
+  line-height: 60px;
+  font-family: Averia Serif Libre;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #b71516;
+}
+.logo:hover{
+   color:  #b71516;
+}
+nav ul li{
+  padding-left:  10px;
+  padding-right: 10px;
+}
+.nav-item a{
+  display: block;
+  font-weight: 500;
+  font-size: 14px;
+}
+.nav-item a:hover{
+  color:#051537  ;
+}
+.left h1{
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 80px;
+  letter-spacing: 1.4px;
+  margin-bottom: 30px;
+  /* color: #fff; */
+}
+
+.left-button{
+  
+  border-radius: 20px;
+  padding: 6px 20px;
+  background-color: #f55858;
+  text-transform: uppercase;
+}
+a{
+  font-size: 13px;
+  /* color: #fff; */
+  letter-spacing: 0.50px;
+}
+.nav-link{
+  margin-bottom: 0%;
+}
+
+/* Navbar end */
+
+
+/*  Experties intro Start  */
+#about2 {
+  padding: 82px 0px 0px 0px;
+}
+#about2 p {
+  margin-bottom: 15px;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+}
+#about2 .section {
+  padding: 20px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#about2 .card {
+  border: none;
+  border-radius: 0px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+#about2 .card:hover {
+  transform: scale(1.01);
+}
+
+#about2 .card-img {
+  width: 100%;
+  height: 566px;
+  object-fit: fill;
+}
+
+#about2 .card-img-overlay {
+ color: #fff;
+ background: rgba(0, 0, 0, 0.5); 
+ backdrop-filter: blur(1px); /* Blur background behind the overlay */ 
+ -webkit-backdrop-filter: blur(1px); /* For Safari */
+}
+#about2 .card-img-overlay {
+  position: absolute;
+  top: 0px;
+  right: -10px;
+  bottom: 0px;
+  left: -10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+#about2 .card-img-overlay h5{
+ margin-top: 250px;
+
+}
+/* Netflix-style indicators */
+#about2 .carousel-indicators {
+  position: relative;
+  margin-top: 530px;
+  justify-content: center;
+}
+
+#about2 .carousel-indicators button {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50% !important;
+  background-color: gray !important;
+  opacity: 0.5 !important;
+  margin: 0 5px !important;
+}
+
+#about2 .carousel-indicators button.active {
+  background-color: #fff !important;
+  opacity: 1 !important;
+}
+
+@media (max-width: 766px){
+  #about2 .card-img-overlay h5{
+    margin-top: 7px;
+    font-size: 20px;
+    text-align: center;
+   }
+   #about2 .card-img-overlay p{
+   text-align: center;
+    font-size: 18px;
+   }
+   #about2 .card-img-overlay {
+    position: absolute;
+    top: 0px;
+    right: -10px;
+    bottom: 0px;
+    left: -10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 13px;
+    padding-right: 10px;
+  }
+}
+@media (width: 768px){
+  #about2 .card-img-overlay h5{
+    margin-top: 133px;
+    font-size: 20px;
+   }
+}
+@media (width: 820px){
+  #about2 .card-img-overlay h5{
+    margin-top: 126px;
+    font-size: 20px;
+   }
+}
+.left-text{
+  padding: 80px;
+  padding-top: 30px;
+  padding-bottom: 0;
+}
+
+.left-text ul li img {
+  display: inline;
+  float: left;
+  margin-top: 20px;
+}
+.left-text ul li p{
+  padding-right: 20px;
+}
+.left-text ul li .text h6 {
+  padding-top: 9px;
+  font-size: 21px;
+  font-weight: 500;
+  color: #1e1e1e;
+  margin-bottom: 5px;
+}
+.left-text ul li .text {
+  margin-left: 80px;
+}
+.left-text .right-image {
+  align-self: center;
+}
+
+.right .col-lg-6{
+  margin-left: 200px;
+}
+@media (max-width: 768px){
+  .left-text {
+  padding-right: 0;
+  padding-left: 15px;
+  }
+  .left-text ul li p{
+      text-align: justify;
+  }
+
+  
+}
+/*  Experties intro end  */
+
+
+/* Experties Corporate Training Testimonials start */
+
+.corporate-stories .testimonial-card {
+  background: linear-gradient(to bottom,  #006ead, #060644);
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin: 1rem auto;
+  max-width: 600px;
+  transition: transform 0.3s ease;
+}
+
+.corporate-stories .card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.corporate-stories .profile-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.corporate-stories .profile-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #0d6efd;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.corporate-stories .testimonial-star {
+  color: #ffd700;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.corporate-stories blockquote {
+  font-size: 1.1rem;
+  color: white;
+  line-height: 1.6;
+  text-align: center;
+  font-style: italic;
+  margin: 0;
+  padding: 0 1rem;
+}
+
+.corporate-stories .testimonial-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+}
+
+.corporate-stories .author-info {
+  flex-grow: 1;
+}
+
+.corporate-stories .author-name {
+  margin: 0;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.corporate-stories .author-role {
+  color: white;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.corporate-stories .linkedin-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #0077b5;
+  border-radius: 50%;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.corporate-stories .linkedin-link:hover {
+  transform: scale(1.1);
+  background-color: #005e93;
+  color: white;
+}
+/* Experties Corporate Training Testimonials end */
